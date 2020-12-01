@@ -1,0 +1,16 @@
+{
+  "name": "aws-lambda-webassembly",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "arc sandbox",
+    "postinstall": "arc hydrate"
+  },
+  "author": "Emanuel Kluge (https://emanuel-kluge.de/)",
+  "license": "MIT",
+  "dependencies": {
+    "@architect/architect": "8.2.1"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  }
+}
